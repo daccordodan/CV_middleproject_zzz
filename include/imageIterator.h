@@ -15,6 +15,7 @@ public:
 
 private:
     std::string path;
+    std::string ext;
     int currentIndex;
     cv::Mat image;
 };
