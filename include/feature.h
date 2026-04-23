@@ -1,3 +1,7 @@
+#ifndef FEATURE_CV_ZZZ_H
+#define FEATURE_CV_ZZZ_H
+#include <opencv2/highgui.hpp>
+
 class Feature
 {
     public:
@@ -15,3 +19,5 @@ class Feature
         bool presence;
         bool movement;
 };
+
+#endif

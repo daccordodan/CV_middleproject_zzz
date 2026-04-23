@@ -1,3 +1,8 @@
+#ifndef FEATURELIST_CV_ZZZ_H
+#define FEATURELIST_CV_ZZZ_H
+#include <opencv2/highgui.hpp>
+#include "feature.h"
+
 class featureList
 {
 public:
@@ -13,3 +18,4 @@ private:
     std::vector<Feature> isNotPresentandMoved;
 };
 
+#endif
