@@ -1,7 +1,6 @@
-#ifndef IMAGE_ITERATOR_HPP
-#define IMAGE_ITERATOR_HPP
+#ifndef IMAGE_ITERATOR_CV_ZZZ_H
+#define IMAGE_ITERATOR_CV_ZZZ_H
 #include <opencv2/opencv.hpp>
-
 
 class ImageIterator
 {
@@ -20,5 +19,4 @@ private:
     cv::Mat image;
 };
 
-#endif // IMAGE_ITERATOR_HPP
-
+#endif
