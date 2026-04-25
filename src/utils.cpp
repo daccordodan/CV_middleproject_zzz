@@ -203,6 +203,7 @@ void accumulateMotion(const std::vector<cv::Point2f>& newPoints, const std::vect
     {
         if (!active[i])
         {
+            allMotions.push_back(0.0f);
             continue;
         }
 
@@ -283,7 +284,7 @@ bool keepDebugOutput(const std::string& path){
     const bool logSheep = false;
     const bool logSquirrel = false;
 
-    bool logFeatureMotion = false;
+    bool logFeatureMotion = true;
     if (path.find("bird") != std::string::npos)
     {
         logFeatureMotion = logBird;
